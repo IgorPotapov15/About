@@ -38,6 +38,18 @@ body {
   padding-bottom: 150px;
 }
 
+/* Button */
+
+.button {
+  background: #34547A;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.button_intro {
+  padding: 18px 40px;
+}
+
 /* Info Block */
 
 .info-block {
@@ -111,13 +123,4 @@ body {
 .intro__text {
   margin-bottom: 60px;
   color: #727272;
-}
-
-.button {
-  background: #34547A;
-  color: #fff;
-}
-
-.button_intro {
-  padding: 18px 40px;
 }
