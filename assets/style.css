@@ -9,6 +9,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
+  line-height: 26.25px;
 }
 
 .main {
@@ -18,7 +19,10 @@ body {
 .container {
   width: 1120px;
   margin: 0 auto;
+  text-align: center;
 }
+
+/* Section */
 
 .section {
   padding-top: 100px;
@@ -32,6 +36,27 @@ body {
 .section_header {
   padding-top: 80px;
   padding-bottom: 150px;
+}
+
+/* Info Block */
+
+.info-block {
+  margin: 0 auto;
+  width: 540px;
+}
+
+.info-block_about {
+  padding-top: 20px;
+}
+
+.info-block__title {
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.info-block__text {
+  color: #727272;
 }
 
 /* Header */
