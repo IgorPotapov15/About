@@ -1,0 +1,16 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  max-width: 320px;
+}
+
+.container {
+  width: 1120px;
+}
+
