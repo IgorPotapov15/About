@@ -144,25 +144,25 @@ body {
 
 /* Project */
 
-.project {
+.numbers {
   display: flex;
   justify-content: space-between;
 }
 
-.project-item {
+.numbers__item {
   width: 16%;
   display: flex;
 }
 
-.project-item__logo {
+.numbers__logo {
   margin-right: 20px;
 }
 
-.project-item__inner {
+.numbers__inner {
   text-align: left;
 }
 
-.project-item__title {
+.numbers__title {
   font-size: 21px;
   font-weight: 500;
 }
