@@ -251,3 +251,50 @@ body {
 .video-preview:hover + .video-play {
   display: block;
 }
+
+/* Projects */
+
+.projects__row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects__item {
+  width: 25%;
+  height: 480px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.projects__image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  transform: translate3d(-50%, -50%, 0);
+}
+
+.projects__overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(52, 84, 122, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  opacity: 0;
+  transition: opacity 0.2s linear;
+}
+
+.projects__image + .projects__overlay:hover {
+  opacity: 1;
+}
+
+.overlay-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  transform: translateX(-50%) translateY(-50%);
+}
