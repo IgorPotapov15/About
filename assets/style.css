@@ -72,10 +72,6 @@ body {
   width: 540px;
 }
 
-.info-block_about {
-  padding-top: 20px;
-}
-
 .info-block__title {
   font-size: 32px;
   font-weight: 500;
@@ -138,6 +134,12 @@ body {
 .intro__text {
   margin-bottom: 60px;
   color: #727272;
+}
+
+/* About */
+
+.about {
+  padding-top: 20px;
 }
 
 /* Project */
@@ -216,4 +218,36 @@ body {
   width: 350px;
   height: 4px;
   background: #34547A;
+}
+
+/* Work */
+
+.work__video {
+  position: relative;
+  cursor: pointer;
+}
+
+.video-preview {
+  width: 1110px;
+  height: 600px;
+  margin-top: 60px;
+  opacity: 0.9;
+  transition: opacity 0.2s linear;
+}
+
+.video-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  display: none;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.video-preview:hover {
+  opacity: 1;
+}
+
+.video-preview:hover + .video-play {
+  display: block;
 }
