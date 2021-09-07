@@ -22,6 +22,10 @@ body {
   text-align: center;
 }
 
+.container_skills {
+  width: 1150px;
+}
+
 /* Section */
 
 .section {
@@ -31,6 +35,11 @@ body {
 
 .section_grey {
   background: #EEEFF1;
+}
+
+.section_blue {
+  background: #34547A;
+  color: #ffffff;
 }
 
 .section_header {
@@ -44,6 +53,12 @@ body {
   background: #34547A;
   color: #fff;
   text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.2s linear;
+}
+
+.button:hover {
+  background: #28405e;
 }
 
 .button_intro {
@@ -94,7 +109,7 @@ body {
 .nav__link a {
   text-decoration: none;
   color: #000000;
-  transition: color .2s linear;
+  transition: color 0.2s linear;
 }
 
 .nav__link a:hover {
@@ -123,4 +138,82 @@ body {
 .intro__text {
   margin-bottom: 60px;
   color: #727272;
+}
+
+/* Project */
+
+.project {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-item {
+  width: 16%;
+  display: flex;
+}
+
+.project-item__logo {
+  margin-right: 20px;
+}
+
+.project-item__inner {
+  text-align: left;
+}
+
+.project-item__title {
+  font-size: 21px;
+  font-weight: 500;
+}
+
+/* Skills */
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills__image {
+  width: 555px;
+  height: 450px;
+}
+
+.skills__inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.skills__title {
+  margin-bottom: 50px;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 37px;
+}
+
+.skills__item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.skills__item-name {
+  margin-bottom: 20px;
+  color: #727272;
+}
+
+.skills__line {
+  width: 445px;
+  height: 4px;
+  position: relative;
+  background: #C4C4C4;
+}
+
+.skills__line:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 350px;
+  height: 4px;
+  background: #34547A;
 }
