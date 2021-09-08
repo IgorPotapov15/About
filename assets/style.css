@@ -99,6 +99,10 @@ body {
   align-items: center;
 }
 
+.nav {
+  margin-right: 110px;
+}
+
 .nav__ul {
   display: flex;
   justify-content: space-between;
@@ -133,6 +137,7 @@ body {
   display: flex;
   margin-top: 160px;
   text-align: left;
+  justify-content: center;
 }
 
 .intro__inner {
@@ -545,6 +550,10 @@ body {
 
 @media (max-width: 991px) {
 
+  .nav {
+    margin-right: 0;
+  }
+
   .intro {
     flex-direction: column;
     justify-content: center;
@@ -612,7 +621,7 @@ body {
 
   .video-preview {
     margin: 0 20px;
-    max-width: 280px;
+    max-width: 85vw;
   }
 
 
