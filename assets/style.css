@@ -551,7 +551,7 @@ body {
 @media (max-width: 991px) {
 
   .nav {
-    margin-right: 0;
+    margin-right: 50px;
   }
 
   .intro {
@@ -584,6 +584,7 @@ body {
     flex-basis: 50%;
     height: 50vw;
   }
+
 }
 
 @media (max-width: 768px) {
@@ -619,11 +620,14 @@ body {
     max-width: 75vw;
   }
 
+  .section_skills {
+    padding-top: 80px;
+  }
+
   .video-preview {
     margin: 0 20px;
     max-width: 85vw;
   }
-
 
   .footer {
     padding: 50px 50px;
