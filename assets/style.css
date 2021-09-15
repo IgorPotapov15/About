@@ -31,7 +31,7 @@ body {
 
 .section {
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 79px;
 }
 
 .section_grey {
@@ -45,7 +45,7 @@ body {
 
 .section_header {
   padding-top: 68px;
-  padding-bottom: 165px;
+  padding-bottom: 146px;
 }
 
 /* Button */
@@ -119,8 +119,15 @@ body {
 
 .nav__link a {
   text-decoration: none;
-  color: #000000;
   transition: color 0.2s linear;
+}
+
+.link-inner {
+  color: #000000;
+}
+
+.main-link {
+  color: #34547A;
 }
 
 .nav__link a:hover {
@@ -134,6 +141,7 @@ body {
 /* Intro */
 
 .intro {
+  height: 307px;
   display: flex;
   margin-top: 160px;
   text-align: left;
@@ -149,6 +157,7 @@ body {
   font-size: 48px;
   font-weight: 500;
   margin-bottom: 60px;
+  line-height: normal;
 }
 
 .intro__text {
@@ -276,7 +285,13 @@ body {
 /* Projects */
 
 .projects {
+  max-width: 1920px;
+  margin: 0 auto;
   padding: 28px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
 }
 
 .projects__inner {
@@ -285,8 +300,10 @@ body {
 }
 
 .projects__item {
+  align-self: center;
   flex-basis: 25%;
   height: 25vw;
+  max-height: 480px;
   position: relative;
   overflow: hidden;
   cursor: pointer;
@@ -555,6 +572,7 @@ body {
   }
 
   .intro {
+    height: auto;
     flex-direction: column;
     justify-content: center;
     text-align: center;
